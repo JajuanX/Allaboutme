@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="contact.html">Contact Me</a> |
+      <a href="tellMeMore.html">Tell Me More</a>
+      <hr>
+    </nav>
+    <!-- Main Body -->
+    <main>
+      <h1>All About You!</h1>
+      <!-- form -->
+      <form action="https://formspree.io/jjjjjj2121@yahoo.com" method="POST">
+        <!-- Personal Info -->
+        <div class="">
+          <label for="firstName">First Name<input placeholder="Some" type="text" name="firstName"></label>
+          <label for="lastName">Last Name<input placeholder="Guy" type="text" name="lastName"></label>
+          <label for="_replyto">Email<input placeholder="some@guy.com" type="email" name="_replyto"></label>
+          <label for="DOB">Date of Birth<input type="date" name="DOB"></label>
+        </div>
+        <!-- You like to code -->
+        <div>
+          How much do you like to code?
+          <input type="range" name="likeCode" value="likeCode">
+        </div><br>
+        <!-- Skills -->
+        <div class="">
+          Skills (check any that apply)
+          <label for="html">HTML</label><input type="checkbox" name="html" value="html">
+          <label for="css">CSS</label><input type="checkbox" name="css" value="css">
+          <label for="git">Git</label><input type="checkbox" name="git" value="git">
+        </div><br>
+        <!-- Favorite Language -->
+        <div class="">
+          <label for="favLanguage">Favorite Language</label>
+          <select class="" name="favLanguage">
+            <option default>Select a language</option>
+            <option value="">Ruby</option>
+            <option value="">JavaScript</option>
+            <option value="">Python</option>
+          </select>
+        </div><br>
+        <!-- Favorite Browser -->
+        <div class="">
+          <label for="browserFav">Favorite Browser</label>
+          <input list="browseFav">
+          <datalist id="browseFav"  class="" >
+            <option value="Internet Explorer">Internet Explorer</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Chrome">Chrome</option>
+            <option value="Safari">Safari</option>
+          </datalist >
+        </div><br>
+        <!-- White Space -->
+        <div class="">
+          <label for="whiteSpace">White Space:</label>
+            <input type="radio" name="whiteSpace" value="tab">Tabs</input>
+            <input type="radio" name="whiteSpace" value="spaces">Spaces</input>
+        </div><br>
+        <!-- Spaces for Tabs -->
+        <div class="">
+          <label for="numberSpaces">How many spaces should a tab represent?</label>
+          <input placeholder="2" type="number" name="numberSpaces" value="numberSpaces">
+        </div><br>
+        <!-- Favorite Color -->
+        <div class="">
+          <label for="FavColor">Favorite Web Color</label>
+          <input type="color" name="FavColor" value="FavColor">
+        </div><br>
+        <!-- Button to Submit -->
+        <input type="submit" value="Send">
+      </form>
+
+    </main>
+  </body>
+</html>
