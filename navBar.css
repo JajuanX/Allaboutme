@@ -1,0 +1,20 @@
+nav li {
+  list-style: none;
+  margin: auto;
+  padding: 20px;
+  color: ghostwhite;
+}
+
+nav ul {
+  display: flex;
+  background-color: darkorange;
+  margin: auto;
+}
+
+#languagList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  text-decoration: none;
+  list-style: none;
+
+}

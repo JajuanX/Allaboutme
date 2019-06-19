@@ -1,0 +1,21 @@
+input, textarea{
+  width: 80%;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+input[type='submit'], input[type='reset']:hover{
+  background-color: aqua;
+  transition: background-color 0.3s;
+}
+
+input[type='submit'], input[type='reset']{
+  width: 100px;
+  background-color: darkorange;
+  color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: aqua;
+}
+textarea {
+  resize: none;
+}
